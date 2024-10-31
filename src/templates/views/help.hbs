@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="/img/weather.png">
+    <title>Help Page</title>
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+        <div class="help-section">
+            
+            <p>If you need assistance, you’re in the right place. Here’s a guide to help you make the most out of the Weather App.</p>
+
+            <h2>How to Use the Weather App</h2>
+            <ul>
+                <li>Enter a city or address in the search bar on the main page.</li>
+                <li>Click on the "Search" button to fetch the weather details.</li>
+                <li>You’ll receive the current temperature, weather condition, and more.</li>
+            </ul>
+
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq">
+                <h3>Why am I seeing an "Address not found" error?</h3>
+                <p>Ensure the address or city name is spelled correctly. Try using only the city name for best results.</p>
+
+                <h3>How accurate is the weather data?</h3>
+                <p>We use reliable weather data providers, but minor discrepancies may occur. Check local sources for precise details.</p>
+            </div>
+
+            <h2>Troubleshooting Tips</h2>
+            <ul>
+                <li><strong>App not loading:</strong> Check your internet connection and refresh the page.</li>
+                <li><strong>No results for location:</strong> Ensure your query is correct or try a nearby city.</li>
+            </ul>
+        </div>
+    </div>
+        {{>footer}}
+</body>
+</html>
