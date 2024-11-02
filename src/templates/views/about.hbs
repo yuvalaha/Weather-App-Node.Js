@@ -10,10 +10,26 @@
 <body>
     <div class="main-content">
         {{>header}}
-        <p>
-            <img src="/img/Yuval.png" class="portrait"></img >
-        </p>    
+        
+        <div class="about-content">
+            <h1>About the Developer</h1>
+            <p>
+                <img src="/img/Yuval.png" class="portrait" alt="Yuval's Portrait">
+            </p>  
+            <p>Hello! I'm Yuval Aharon, a passionate full-stack developer with a love for creating user-friendly applications. This Weather App is a project from my Node.js studies, where I focused on learning Express, Handlebars, and working with APIs to deliver real-time weather data.</p>
+            
+            <h2>About This App</h2>
+            <p>This weather app allows users to search for up-to-date weather information by entering a location. It fetches data through reliable weather APIs and presents it in a simple, accessible format, making it easy for users to stay informed.</p>
+
+            <h2>Technologies Used</h2>
+            <ul>
+                <li>Node.js & Express for server setup and routing</li>
+                <li>Handlebars for dynamic HTML templates</li>
+                <li>CSS for responsive and modern styling</li>
+            </ul>
+        </div>
+        
+        {{>footer}}
     </div>
-    {{>footer}}
 </body>
 </html>
